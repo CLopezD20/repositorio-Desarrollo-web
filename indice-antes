@@ -1,0 +1,60 @@
+
+<body class="bodyInicio">
+    <header class="encabezado">
+                <h1 >Piës Descalzos</h1>
+                    <ul class="">
+                        <li><a c href="#">Inicio</a></li>
+                        <li><a  href="./pages/contacto.html">Contacto</a></li>
+                        <li><a  href="./pages/devoluciones.html">Devoluciones</a></li>
+                        <li><a  href="./pages/nosotros.html">Nosotros</a></li>
+                        <li><a  href="./pages/productos.html">Productos</a></li>
+                    </ul>
+                <img src="./assets/imagenes/carrito-de-compras (1).png" alt="carrito-de-compras" >
+    </header>
+    <main>
+        <section class="novedades">
+            <h2>Novedades!</h2>
+            <img src="./assets/imagenes/novedades.jpg" alt="imagen de un nuevo producto que queremos que conozcas">
+        </section>
+        <section class="Destacados">
+            <article class="BarraDeDestacados">
+                <img src="./assets/imagenes/huella.png" alt="icono de una piecito">
+                <h2> Destacados </h2>
+                <img src="./assets/imagenes/pie-derecho.png" alt="icono de un piecito">
+            </article>
+
+            <img src="image.jpg" alt="Imagen de uno de nuestros productos más vendidos">
+        </section>
+    </main>
+    <footer class="pie-pagina">
+        <p>Cualquier duda no dudes en consultarnos!</p>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/devoluciones.html">Devoluciones</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img src="./assets/imagenes/instagram.png" alt="icono de instagram">
+            <img src="./assets/imagenes/whatsapp.png" alt="icono de whatsapp">
+            <img src="./assets/imagenes/tik-tok.png" alt="icono de tik tok">
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+<!--  SECCION DE DESTACADOS-->
+

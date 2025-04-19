@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
+/*Logo*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.fondo-encabezado{
+    background-color: #F5EFEB;
+}
+.colortitulo{
+ color: #133955;
+ text-decoration: none;
+ font-style: bold;
+ font-family: "Edu SA Beginner", sans-serif;
+ margin-right: 60px;
+ font-size: 35px;
+}
+.colornav{
+    color: #133955;
+    text-decoration: none;
+    font-family: "Edu SA Beginner", sans-serif;
+}
+
+.bodyInicio {
+    background-image: url(../assets/imagenes/fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 100vh; 
+    margin: 0;
+    padding:0;
+}
+
+.novedades {
+    background-color: white;
+    border: 1px solid #D1775B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.novedades h2 {
+    font-size: 1.5rem;
+    text-align: left;
+    /*align-items: center;*/
+}
+
+.novedades img {
+    width: 40%;
+    height: auto;
+}
+
+.Destacados {
+    padding: 1.5rem;
+   /* margin: 20px;*/
+}
+
+.Destacados img {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.BarraDeDestacados h2 {
+    font-size: 1.5rem;
+    margin: 20px;
+}
+
+.BarraDeDestacados img {
+    width: 24px;
+    height: auto;
+}
+
+.pie-pagina {
+    background-color: #F5EFEB;
+}
+
+.pie-pagina p {
+    margin: 15px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.pie-pagina nav a {
+    color: black;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.pie-pagina nav ul li {
+    text-align: center;
+}
+
+.pie-pagina nav ul {
+    list-style: none;
+}
+.textos-varios-h2{
+    color:#133955;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin: 1rem;
+    padding:1px;
+    text-align: center;
+}
+.textos-varios-texto{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 2rem;
+    padding: 1px;
+    text-align: center;
+}
+.cardsprod{
+    margin-top: 1rem;
+    border:solid 1px #D1775B;
+    width: 18rem;
+
+}
+.tituloprod{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    color:#133955
+}
+.productos h2{
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    color:#133955; 
+    text-align: center; 
+}
+.enviar {
+    font-family: "Poppins", sans-serif;
+    grid-column: 1;
+    background-color: #F5EFEB;
+    color: #D1775B;
+    border:#133955 1px solid;
+    margin: 10px;
+}
+
+.enviar:hover {
+    background-color: #D1775B;
+    color: #F5EFEB;
+}
+.selectorcard{
+    background-color: #F5EFEB;
+    color: #D1775B;
+    border:#133955 1px solid;
+}
+.selectorcard:hover{
+    background-color: #D1775B;
+    color: #F5EFEB;
+}
+.card-devoluciones{
+    max-width: 1400px;
+    border: #D1775B solid 1px;
+    margin: 1.5rem;
+
+}
+.textos-varios-h2{
+    font-family: "Poppins", sans-serif;
+    color: #133955;
+}
+.textos-varios-textos{
+    font-family: "Poppins", sans-serif;
+    text-align: start;
+
+}
+.formulario{
+    margin: 1.5rem;
+    padding: 1rem;
+    border:#D1775B solid 1px;
+    border-radius: 5px;
+}
+.formulario label{
+color: #133955;
+font-family: "Poppins",sans-serif;
+}
+.formulario input{
+    border: #D1775B 1px solid;
+    background-color: #F5EFEB;
+}
