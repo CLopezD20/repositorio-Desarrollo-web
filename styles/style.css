@@ -172,9 +172,16 @@
     font-family: "Poppins", sans-serif;
     color: #133955;
 }
-.textos-varios-textos{
+.textos-varios-textos-contacto{
     border: #D1775B 1px solid;
     border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-align: start;
+    padding: 1rem;
+    margin: 1.5rem;
+
+}
+.textos-varios-textos{
     font-family: "Poppins", sans-serif;
     text-align: start;
     padding: 1rem;
