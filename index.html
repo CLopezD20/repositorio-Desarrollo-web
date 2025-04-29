@@ -23,16 +23,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                        <li class="nav-item color-nav ">
                             <a class="nav-link colornav" href="./pages/nosotros.html"> Nosotros</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item color-nav">
                             <a class="nav-link colornav" href="./pages/contacto.html">Contacto</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item color-nav">
                             <a class="nav-link colornav" href="./pages/devoluciones.html">Devoluciones</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item color-nav">
                             <a class="nav-link colornav" href="./pages/productos.html">Productos</a>
                         </li>
                     </ul>
@@ -43,60 +43,64 @@
     </header>
     <main>
         <section class="novedades">
-            <h2>Novedades!!</h2>
-            <img src="./assets/imagenes/novedades.jpg" alt="imagen de nuestros productos">
-        </section>
-        <section class="Destacados">
-            <div class="card mb-3">
-                <div class="card">
-                    <div class="card-body ">
-                        <article class="BarraDeDestacados d-flex flex-row justify-content-center">
-                            <img src="./assets/imagenes/huella.png" alt="icono de una piecito">
-                            <h2> Destacados </h2>
-                            <img src="./assets/imagenes/pie-derecho.png" alt="icono de un piecito">
-                        </article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-content-center">
+                        <h1 class="titulo-inicio"> Piës Descalzos: Tu hogar, tu momento, tu descanso.</h1>
+                        <h2 class="subtitulo-inicio">Diseñamos comodidad para cada paso que des en tu hogar.</h2>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <div id="carouselExampleInterval" class="carousel slide w-50" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="./assets/imagenes/pantus1.jpg" class="d-block w-100"
-                                        alt="esta es una imagen que muestra uno de nuestros pares de pantuflas más elegido en la semana">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h3>Producto 1</h3>
-                                        <p>Nos apasiona lo que hacemos, y por eso te compartimos nuestros destacados de la semana.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="./assets/imagenes/pantus2.jpg" class="d-block w-100"
-                                        alt="esta es una imagen que muestra uno de nuestros pares de pantuflas más elegido en la semana">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h3>Producto 2</h3>
-                                        <p>Nos apasiona lo que hacemos, y por eso te compartimos nuestros destacados de la semana.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="./assets/imagenes/pantus3.jpg" class="d-block w-100"
-                                        alt="esta es una imagen que muestra uno de nuestros pares de pantuflas más elegido en la semana">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h3>Producto 3</h3>
-                                        <p>Nos apasiona lo que hacemos, y por eso te compartimos nuestros destacados de la semana.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                    <div>
+                        <a href="./pages/productos.html" class="boton">Ver productos</a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="Destacados">
+            <article class="BarraDeDestacados d-flex flex-row justify-content-center">
+                <img src="./assets/imagenes/huella.png" alt="icono de una piecito">
+                <h1> Destacados </h1>
+                <img src="./assets/imagenes/pie-derecho.png" alt="icono de un piecito">
+            </article> 
+            <div class="d-flex justify-content-center">
+                <div id="carouselExampleInterval" class="carousel slide w-50" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./assets/imagenes/pantus1.jpg" class="d-block w-100"
+                                alt="esta es una imagen que muestra uno de nuestros pares de pantuflas más elegido en la semana">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3><a href="./pages/productos.html" class="carrousel-inicio"> Pantuflas Ania</a></h3>
+                                <p>Nos apasiona lo que hacemos, y por eso te compartimos nuestros destacados de la semana.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./assets/imagenes/pantus2.jpg" class="d-block w-100"
+                                alt="esta es una imagen que muestra uno de nuestros pares de pantuflas más elegido en la semana">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3><a href="./pages/productos.html" class="carrousel-inicio">Pantuflas Margarita</a></h3>
+                                <p>Nos apasiona lo que hacemos, y por eso te compartimos nuestros destacados de la semana.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/imagenes/pantus3.jpg" class="d-block w-100"
+                                alt="esta es una imagen que muestra uno de nuestros pares de pantuflas más elegido en la semana">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3><a href="./pages/productos.html" class="carrousel-inicio">Pantuflas Lidia</a></h3>
+                                <p>Nos apasiona lo que hacemos, y por eso te compartimos nuestros destacados de la semana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="pie-pagina">
