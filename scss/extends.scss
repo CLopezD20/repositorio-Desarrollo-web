@@ -1,0 +1,51 @@
+@import "variables";
+%color-navs{
+    color:$letra-color;
+    text-decoration: none;
+    font-family: "Edu Sa Beginner", sans-serif;
+}
+%letra-pie-pag{
+    color:$letra-color;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+%boton{
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    color:$letra-color;
+    border: $letra-color 2px solid;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 5rem;
+}
+%flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+%fuente-comun{
+    font-family: $letra1;
+    font-style: normal;
+    text-align: center;
+    padding: 1px;
+}
+%borde-color-azul-naranja{
+    border: 1px solid $letra-color;
+    color:$color-extra;
+}
+%b-enviar{
+    font-family: "Edu Sa Beginner",sans-serif;
+    grid-column: 1;
+    background-color: $fondo-color;
+    @extend %borde-color-azul-naranja;
+    margin: 10px;
+}
+%pad-margin-igual{
+    padding: 1rem;
+    margin: 1.5rem;
+    text-align: start;
+}

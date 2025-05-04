@@ -1,3 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+Sa+Beginner:wght@400...700&display=swap");
+@import url("https://fonts.glogleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+Sa+Beginner:wght@400...700&display=swap");
+@import url("https://fonts.glogleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+main .productos h2, main .tituloprod, header .color-nav a, header .colortitulo, main .formulario label, body main .destacados .carrousel-inicio, body main .novedades .titulo-inicio {
+  color: #133955;
+  text-decoration: none;
+  font-family: "Edu Sa Beginner", sans-serif;
+}
 
+footer nav a, footer p {
+  color: #133955;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+main .novedades .boton {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #133955;
+  border: #133955 2px solid;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 5rem;
+}
+
+body main .novedades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+main .textos-varios-textos, main .textos-varios-h2 {
+  font-family: "Edu Sa Beginner", sans-serif;
+  font-style: normal;
+  text-align: center;
+  padding: 1px;
+}
+
+main .selectorcard, main .enviar {
+  border: 1px solid #133955;
+  color: #D1775B;
+}
+
+main .enviar {
+  font-family: "Edu Sa Beginner", sans-serif;
+  grid-column: 1;
+  background-color: #F5EFEB;
+  margin: 10px;
+}
+
+main .textos-varios-textos-contacto, main .textos-varios-textos {
+  padding: 1rem;
+  margin: 1.5rem;
+  text-align: start;
+}
+
+body main .novedades {
+  background-image: url(../assets/imagenes/novedades.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  height: 100vh;
+  margin: 0px;
+  padding: 10px;
+  gap: 10px;
+  max-width: 100%;
+}
+body main .novedades .titulo-inicio {
+  font-weight: bolder;
+  margin-top: 250px;
+}
+body main .novedades .subtitulo-inicio {
+  font-family: "Edu Sa Beginner", sans-serif;
+  color: #F5EFEB;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px #133955;
+  margin-top: 1.2rem;
+}
+body main .destacados {
+  padding: 1.5rem;
+  background-image: url(../assets/imagenes/fondo.png);
+}
+body main .destacados img {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+body main .destacados .barradedestacados {
+  background-color: white;
+  padding: 0;
+}
+body main .destacados .barradedestacados h1 {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+body main .destacados .barradedestacados img {
+  width: 30px;
+  height: auto;
+}
+main .novedades .boton:hover {
+  color: #D1775B;
+  border: #D1775B 2px solid;
+}
+main .enviar:hover {
+  background-color: #D1775B;
+  color: #F5EFEB;
+}
+main .selectorcard {
+  background-color: #F5EFEB;
+}
+main .selectorcard:hover {
+  background-color: #D1775B;
+  color: #F5EFEB;
+}
+main .formulario {
+  margin: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #D1775B;
+  border-radius: 5px;
+}
+main .formulario input {
+  border: #D1775B 1px solid;
+  background-color: #F5EFEB;
+}
+
+header {
+  background-color: #F5EFEB;
+}
+header .colortitulo {
+  font-style: bold;
+  margin-right: 60px;
+  font-size: 35px;
+}
+main .textos-varios-h2 {
+  color: #133955;
+  font-size: 30px;
+  margin: 1rem;
+}
+main .productos h2 {
+  text-align: center;
+}
+main .cardsprod {
+  margin-top: 1rem;
+  width: 18rem;
+  border: solid 1px #D1775B;
+}
+main .card-devoluciones {
+  max-width: 1400px;
+  border: solid 1px #D1775B;
+  margin: 1.5rem;
+}
+main .textos-varios-textos-contacto {
+  border: #D1775B 1px solid;
+  border-radius: 5px;
+  font-family: "Edu Sa Beginner", sans-serif;
+}
+
+footer {
+  background-color: #F5EFEB;
+}
+footer p {
+  margin: 15px 20px;
+  text-align: center;
+}
+footer nav a {
+  text-decoration: none;
+}
+footer nav ul {
+  list-style: none;
+}
+footer nav ul li {
+  text-align: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
