@@ -1,0 +1,14 @@
+header {
+    background-color: $fondo-color;
+
+    .colortitulo {
+        @extend %color-navs;
+        font-style: bold;
+        margin-right: 60px;
+        font-size: 35px;
+    }
+
+    .color-nav a {
+        @extend %color-navs
+    }
+}

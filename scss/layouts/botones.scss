@@ -1,0 +1,45 @@
+ .novedades {
+     .boton {
+         @extend %boton;
+     }
+
+     .boton:hover {
+         color: $color-extra;
+         border: $color-extra 2px solid;
+     }
+ }
+
+ .enviar {
+     @extend %b-enviar
+ }
+
+ .enviar:hover {
+     background-color: $color-extra;
+     color: $fondo-color;
+ }
+
+ .selectorcard {
+     background-color: $fondo-color;
+     @extend %borde-color-azul-naranja;
+ }
+
+ .selectorcard:hover {
+     background-color: $color-extra;
+     color: $fondo-color;
+ }
+
+ .formulario {
+     margin: 1.5rem;
+     padding: 1rem;
+     border: 1px solid $color-extra;
+     border-radius: 5px;
+ }
+
+ .formulario label {
+     @extend %color-navs;
+ }
+
+ .formulario input {
+     border: $color-extra 1px solid;
+     background-color: $fondo-color;
+ }

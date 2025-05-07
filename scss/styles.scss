@@ -1,80 +1,9 @@
-@import "extends";
-@import "variables";
-@import "style-inicio.scss";
-@import "botones";
-
-header {
-    background-color: $fondo-color;
-
-    .colortitulo {
-        @extend %color-navs;
-        font-style: bold;
-        margin-right: 60px;
-        font-size: 35px;
-    }
-
-    .color-nav a {
-        @extend %color-navs
-    }
-}
-main{
-    .textos-varios-h2{
-        color:$letra-color;
-        @extend %fuente-comun;
-        font-size: 30px;
-        margin: 1rem;
-    }
-    .textos-varios-textos{
-        @extend %fuente-comun;
-        @extend %pad-margin-igual;
-    }
-    .tituloprod{
-        @extend %color-navs;
-    }
-    .productos h2{
-        @extend %color-navs;
-        text-align: center;
-    }
-    .cardsprod{
-        margin-top: 1rem;
-        width: 18rem;
-        border: solid 1px $color-extra;
-    }
-    .card-devoluciones{
-        max-width: 1400px;
-        border: solid 1px $color-extra;
-        margin: 1.5rem;
-    }
-    .textos-varios-textos-contacto{
-        border: $color-extra 1px solid;
-        border-radius: 5px;
-        font-family: $letra1;
-       @extend %pad-margin-igual;
-    }
-
-}
-footer {
-    background-color: $fondo-color;
-
-    p {
-        @extend %letra-pie-pag;
-        margin: 15px 20px;
-        text-align: center;
-    }
-
-    nav {
-        a {
-            @extend %letra-pie-pag;
-            text-decoration: none;
-        }
-
-        ul {
-            list-style: none;
-
-            li {
-                text-align: center;
-            }
-        }
-    }
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+Sa+Beginner:wght@400...700&display=swap');
+@import url('https://fonts.glogleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import "./utilities/variables.scss";
+@import "./utilities/extends.scss";
+@import "./layouts/botones.scss";
+@import "./layouts/header.scss";
+@import "./layouts/main.scss";
+@import "./layouts/footer.scss";
