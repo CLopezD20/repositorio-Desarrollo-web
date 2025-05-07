@@ -98,7 +98,7 @@ header .colortitulo {
   font-size: 35px;
 }
 main .novedades {
-  background-image: url(../../assets/imagenes/novedades.jpg);
+  background-image: url(../assets/imagenes/novedades.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ main .novedades .subtitulo-inicio {
 }
 main .destacados {
   padding: 1.5rem;
-  background-image: url(../../assets/imagenes/fondo.png);
+  background-image: url(../assets/imagenes/fondo.png);
 }
 main .destacados img {
   align-items: center;
