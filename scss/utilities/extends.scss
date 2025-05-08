@@ -1,19 +1,19 @@
 %color-navs {
     color: $letra-color;
     text-decoration: none;
-    font-family: "Edu Sa Beginner", sans-serif;
+    font-family: "Edu Sa Beginner";
 }
 
 %letra-pie-pag {
     color: $letra-color;
-    font-family: "Poppins", sans-serif;
+    font-family: "Edu Sa Beginner";
     font-style: normal;
     font-weight: 200;
 }
 
 %boton {
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     color: $letra-color;
     border: $letra-color 2px solid;
     border-radius: 5px;
@@ -43,7 +43,7 @@
 }
 
 %b-enviar {
-    font-family: "Edu Sa Beginner", sans-serif;
+    font-family: "Edu Sa Beginner";
     grid-column: 1;
     background-color: $fondo-color;
     @extend %borde-color-azul-naranja;

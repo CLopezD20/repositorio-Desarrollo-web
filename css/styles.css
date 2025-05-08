@@ -4,19 +4,19 @@
 main .productos h1, main .tituloprod, main .destacados .carrousel-inicio, main .novedades .titulo-inicio, header .color-nav a, header .colortitulo, .formulario label {
   color: #133955;
   text-decoration: none;
-  font-family: "Edu Sa Beginner", sans-serif;
+  font-family: "Edu Sa Beginner";
 }
 
 footer nav a, footer p {
   color: #133955;
-  font-family: "Poppins", sans-serif;
+  font-family: "Edu Sa Beginner";
   font-style: normal;
   font-weight: 200;
 }
 
 .novedades .boton {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   color: #133955;
   border: #133955 2px solid;
   border-radius: 5px;
@@ -34,7 +34,7 @@ main .novedades {
 }
 
 main .textos-varios-textos, main .textos-varios-h2 {
-  font-family: "Edu Sa Beginner", sans-serif;
+  font-family: "Edu Sa Beginner";
   font-style: normal;
   text-align: center;
   padding: 1px;
@@ -46,7 +46,7 @@ main .textos-varios-textos, main .textos-varios-h2 {
 }
 
 .enviar {
-  font-family: "Edu Sa Beginner", sans-serif;
+  font-family: "Edu Sa Beginner";
   grid-column: 1;
   background-color: #F5EFEB;
   margin: 10px;
@@ -99,6 +99,7 @@ header .colortitulo {
 }
 main .novedades {
   background-image: url(../assets/imagenes/novedades.jpg);
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,7 +115,7 @@ main .novedades .titulo-inicio {
   margin-top: 250px;
 }
 main .novedades .subtitulo-inicio {
-  font-family: "Edu Sa Beginner", sans-serif;
+  font-family: "Edu Sa Beginner";
   color: #F5EFEB;
   font-weight: bolder;
   -webkit-text-stroke: 1px #133955;
@@ -123,23 +124,34 @@ main .novedades .subtitulo-inicio {
 main .destacados {
   padding: 1.5rem;
   background-image: url(../assets/imagenes/fondo.png);
-}
-main .destacados img {
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
+  padding-top: 0px;
 }
 main .destacados .barradedestacados {
   background-color: white;
-  padding: 0;
+  padding-top: 1rem;
 }
-main .destacados .barradedestacados h1 {
+main .destacados .barradedestacados h2 {
+  font-family: "Edu Sa Beginner";
   font-size: 1.5rem;
   margin: 20px;
+  color: #133955;
 }
 main .destacados .barradedestacados img {
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
   width: 30px;
   height: auto;
+}
+main .destacados .carousel-img {
+  height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  main .destacados .carousel-img {
+    height: 100%;
+  }
 }
 main .textos-varios-h2 {
   color: #133955;
@@ -161,11 +173,11 @@ main .card-devoluciones {
 main .textos-varios-textos-contacto {
   border: #D1775B 1px solid;
   border-radius: 5px;
-  font-family: "Edu Sa Beginner", sans-serif;
+  font-family: "Edu Sa Beginner";
 }
 main .nosotros-inicio {
-  font-family: "Pinyon Script";
-  font-size: 1.7rem;
+  font-family: "Edu Sa Beginner";
+  font-size: 1.5rem;
   color: black;
   padding: 5px;
   text-align: center;
@@ -177,6 +189,7 @@ main .nosotros-inicio img {
 }
 
 footer {
+  padding-top: 7px;
   background-color: #F5EFEB;
 }
 footer p {

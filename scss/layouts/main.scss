@@ -1,6 +1,7 @@
 main {
     .novedades {
         background-image: $imagen-pantuflas-inicio;
+        position: relative;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -30,30 +31,36 @@ main {
     .destacados {
         padding: 1.5rem;
         background-image: $fondo-imagen;
-
-        img {
-            align-items: center;
-            justify-content: center;
-            margin: 20px;
-        }
-
+        padding-top: 0px;
         .barradedestacados {
             background-color: white;
-            padding: 0;
-
-            h1 {
+            padding-top: 1rem;
+            h2 {
+                font-family:$letra1;
                 font-size: 1.5rem;
-                margin: 20px;
+                margin:20px;
+                color:$letra-color
             }
 
             img {
+                align-items: center;
+                justify-content: center;
+                margin: 20px;
                 width: 30px;
                 height: auto;
             }
         }
-
+        .carousel-img{
+            height:600px;
+            object-fit: cover;
+            width: 100%;
+            @media (max-width:768px){
+                height: 100%;
+            }
+        }
         .carrousel-inicio {
             @extend %color-navs;
+
         }
     }
 }
@@ -99,8 +106,8 @@ main {
     }
 
     .nosotros-inicio {
-        font-family: "Pinyon Script";
-        font-size: 1.7rem;
+        font-family: "Edu Sa Beginner";
+        font-size: 1.5rem;
         color: black;
         padding: 5px;
         text-align: center;
