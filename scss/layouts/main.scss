@@ -1,72 +1,73 @@
-main {
-    .novedades {
-        background-image: $imagen-pantuflas-inicio;
-        position: relative;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        min-height: 90vh;
-        height: 100vh;
-        @extend %flex-column;
-        margin: 0px;
-        padding: 10px;
-        gap: 10px;
-        max-width: 100%;
+.novedades {
+    background-image: $imagen-pantuflas-inicio;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    height: 100vh;
+    @extend %flex-column;
+    margin: 0px;
+    padding: 10px;
+    gap: 10px;
+    max-width: 100%;
 
-        .titulo-inicio {
-            @extend %color-navs;
-            font-weight: bolder;
-            margin-top: 250px;
-        }
-
-        .subtitulo-inicio {
-            font-family: $letra1;
-            color: $fondo-color;
-            font-weight: bolder;
-            -webkit-text-stroke: 1px $letra-color;
-            margin-top: 1.2rem;
-        }
+    .titulo-inicio {
+        @extend %color-navs;
+        font-weight: bolder;
+        margin-top: 250px;
     }
 
-    .destacados {
-        padding: 1.5rem;
-        background-image: $fondo-imagen;
-        padding-top: 0px;
-        .barradedestacados {
-            background-color: white;
-            padding-top: 1rem;
-            h2 {
-                font-family:$letra1;
-                font-size: 1.5rem;
-                margin:20px;
-                color:$letra-color
-            }
-
-            img {
-                align-items: center;
-                justify-content: center;
-                margin: 20px;
-                width: 30px;
-                height: auto;
-            }
-        }
-        .carousel-img{
-            height:600px;
-            object-fit: cover;
-            width: 100%;
-            @media (max-width:768px){
-                height: 100%;
-            }
-        }
-        .carrousel-inicio {
-            @extend %color-navs;
-
-        }
+    .subtitulo-inicio {
+        font-family: $letra1;
+        color: $fondo-color;
+        font-weight: bolder;
+        -webkit-text-stroke: 1px $letra-color;
+        margin-top: 1.2rem;
     }
 }
 
-main {
-    .textos-varios-h2 {
+.destacados {
+    padding: 1.5rem;
+    background-image: $fondo-imagen;
+    padding-top: 0px;
+
+    .barradedestacados {
+        background-color: white;
+        padding-top: 1rem;
+
+        h2 {
+            font-family: $letra1;
+            font-size: 1.5rem;
+            margin: 20px;
+            color: $letra-color
+        }
+
+        img {
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            width: 30px;
+            height: auto;
+        }
+    }
+
+    .carousel-img {
+        height: 600px;
+        object-fit: cover;
+        width: 100%;
+
+        @media (max-width:768px) {
+            height: 100%;
+        }
+    }
+
+    .carrousel-inicio {
+        @extend %color-navs;
+
+    }
+}
+.textos-varios-h2 {
         color: $letra-color;
         @extend %fuente-comun;
         font-size: 30px;
@@ -118,4 +119,3 @@ main {
     .nosotros-inicio img {
         width: 75px;
     }
-}

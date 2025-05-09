@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+Sa+Beginner:wght@400...700&display=swap");
 @import url("https://fonts.glogleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
-main .productos h1, main .tituloprod, main .destacados .carrousel-inicio, main .novedades .titulo-inicio, header .color-nav a, header .colortitulo, .formulario label {
+.productos h1, .tituloprod, .destacados .carrousel-inicio, .novedades .titulo-inicio, header .color-nav a, header .colortitulo, .formulario label {
   color: #133955;
   text-decoration: none;
   font-family: "Edu Sa Beginner";
@@ -26,14 +26,14 @@ footer nav a, footer p {
   margin-top: 5rem;
 }
 
-main .novedades {
+.novedades {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-main .textos-varios-textos, main .textos-varios-h2 {
+.textos-varios-textos, .textos-varios-h2 {
   font-family: "Edu Sa Beginner";
   font-style: normal;
   text-align: center;
@@ -52,7 +52,7 @@ main .textos-varios-textos, main .textos-varios-h2 {
   margin: 10px;
 }
 
-main .textos-varios-textos-contacto, main .textos-varios-textos {
+.textos-varios-textos-contacto, .textos-varios-textos {
   padding: 1rem;
   margin: 1.5rem;
   text-align: start;
@@ -97,7 +97,7 @@ header .colortitulo {
   margin-right: 60px;
   font-size: 35px;
 }
-main .novedades {
+.novedades {
   background-image: url(../assets/imagenes/novedades.jpg);
   position: relative;
   background-size: cover;
@@ -110,72 +110,78 @@ main .novedades {
   gap: 10px;
   max-width: 100%;
 }
-main .novedades .titulo-inicio {
+.novedades .titulo-inicio {
   font-weight: bolder;
   margin-top: 250px;
 }
-main .novedades .subtitulo-inicio {
+.novedades .subtitulo-inicio {
   font-family: "Edu Sa Beginner";
   color: #F5EFEB;
   font-weight: bolder;
   -webkit-text-stroke: 1px #133955;
   margin-top: 1.2rem;
 }
-main .destacados {
+
+.destacados {
   padding: 1.5rem;
   background-image: url(../assets/imagenes/fondo.png);
   padding-top: 0px;
 }
-main .destacados .barradedestacados {
+.destacados .barradedestacados {
   background-color: white;
   padding-top: 1rem;
 }
-main .destacados .barradedestacados h2 {
+.destacados .barradedestacados h2 {
   font-family: "Edu Sa Beginner";
   font-size: 1.5rem;
   margin: 20px;
   color: #133955;
 }
-main .destacados .barradedestacados img {
+.destacados .barradedestacados img {
   align-items: center;
   justify-content: center;
   margin: 20px;
   width: 30px;
   height: auto;
 }
-main .destacados .carousel-img {
+.destacados .carousel-img {
   height: 600px;
   object-fit: cover;
   width: 100%;
 }
 @media (max-width: 768px) {
-  main .destacados .carousel-img {
+  .destacados .carousel-img {
     height: 100%;
   }
 }
-main .textos-varios-h2 {
+.textos-varios-h2 {
   color: #133955;
   font-size: 30px;
   margin: 1rem;
 }
-main .productos h1 {
+
+.productos h1 {
   text-align: center;
 }
-main .cardsprod {
+
+.cardsprod {
   margin-top: 1rem;
   width: 18rem;
   border: solid 1px #D1775B;
 }
-main .card-devoluciones {
+
+.card-devoluciones {
   max-width: 1400px;
   margin: 1.5rem;
 }
-main .textos-varios-textos-contacto {
+
+.textos-varios-textos-contacto {
   border: #D1775B 1px solid;
   border-radius: 5px;
   font-family: "Edu Sa Beginner";
 }
-main .nosotros-inicio {
+
+.nosotros-inicio {
   font-family: "Edu Sa Beginner";
   font-size: 1.5rem;
   color: black;
@@ -184,7 +190,8 @@ main .nosotros-inicio {
   border: #133955;
   background-color: #95acbd;
 }
-main .nosotros-inicio img {
+
+.nosotros-inicio img {
   width: 75px;
 }
 
