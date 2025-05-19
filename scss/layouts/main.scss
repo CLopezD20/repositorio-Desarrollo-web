@@ -20,9 +20,8 @@
 
     .subtitulo-inicio {
         font-family: $letra1;
-        color: $fondo-color;
+        color: $letra-color;
         font-weight: bolder;
-        -webkit-text-stroke: 1px $letra-color;
         margin-top: 1.2rem;
     }
 }
@@ -67,55 +66,56 @@
 
     }
 }
+
 .textos-varios-h2 {
-        color: $letra-color;
-        @extend %fuente-comun;
-        font-size: 30px;
-        margin: 1rem;
-    }
+    color: $letra-color;
+    @extend %fuente-comun;
+    font-size: 30px;
+    margin: 1rem;
+}
 
-    .textos-varios-textos {
-        @extend %fuente-comun;
-        @extend %pad-margin-igual;
-    }
+.textos-varios-textos-devoluciones {
+    @extend %fuente-comun;
+    @extend %pad-margin-igual;
+}
 
-    .tituloprod {
-        @extend %color-navs;
-    }
+.tituloprod {
+    @extend %color-navs;
+}
 
-    .productos h1 {
-        @extend %color-navs;
-        text-align: center;
-    }
+.productos h1 {
+    @extend %color-navs;
+    text-align: center;
+}
 
-    .cardsprod {
-        margin-top: 1rem;
-        width: 18rem;
-        border: solid 1px $color-extra;
-    }
+.cardsprod {
+    margin-top: 1rem;
+    width: 18rem;
+    border: solid 1px $color-extra;
+}
 
-    .card-devoluciones {
-        max-width: 1400px;
-        margin: 1.5rem;
-    }
+.card-devoluciones {
+    max-width: 1400px;
+    margin: 1.5rem;
+}
 
-    .textos-varios-textos-contacto {
-        border: $color-extra 1px solid;
-        border-radius: 5px;
-        font-family: $letra1;
-        @extend %pad-margin-igual;
-    }
+.textos-varios-textos-contacto {
+    border: $color-extra 1px solid;
+    border-radius: 5px;
+    @extend %fuente-comun;
+    @extend %pad-margin-igual;
+}
 
-    .nosotros-inicio {
-        font-family: "Edu Sa Beginner";
-        font-size: 1.5rem;
-        color: black;
-        padding: 5px;
-        text-align: center;
-        border: $letra-color;
-        background-color: #95acbd;
-    }
+.nosotros-inicio {
+    font-family: "Edu Sa Beginner";
+    font-size: 1.5rem;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border: $letra-color;
+    background-color: #95acbd;
+}
 
-    .nosotros-inicio img {
-        width: 75px;
-    }
+.nosotros-inicio img {
+    width: 75px;
+}

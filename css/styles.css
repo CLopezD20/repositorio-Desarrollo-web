@@ -11,7 +11,7 @@ footer nav a, footer p {
   color: #133955;
   font-family: "Edu Sa Beginner";
   font-style: normal;
-  font-weight: 200;
+  font-size: 18px;
 }
 
 .novedades .boton {
@@ -33,10 +33,11 @@ footer nav a, footer p {
   text-align: center;
 }
 
-.textos-varios-textos, .textos-varios-h2 {
+.textos-varios-textos-contacto, .textos-varios-textos-devoluciones, .textos-varios-h2 {
   font-family: "Edu Sa Beginner";
   font-style: normal;
   text-align: center;
+  font-size: 21px;
   padding: 1px;
 }
 
@@ -52,7 +53,7 @@ footer nav a, footer p {
   margin: 10px;
 }
 
-.textos-varios-textos-contacto, .textos-varios-textos {
+.textos-varios-textos-contacto, .textos-varios-textos-devoluciones {
   padding: 1rem;
   margin: 1.5rem;
   text-align: start;
@@ -116,9 +117,8 @@ header .colortitulo {
 }
 .novedades .subtitulo-inicio {
   font-family: "Edu Sa Beginner";
-  color: #F5EFEB;
+  color: #133955;
   font-weight: bolder;
-  -webkit-text-stroke: 1px #133955;
   margin-top: 1.2rem;
 }
 
@@ -178,7 +178,6 @@ header .colortitulo {
 .textos-varios-textos-contacto {
   border: #D1775B 1px solid;
   border-radius: 5px;
-  font-family: "Edu Sa Beginner";
 }
 
 .nosotros-inicio {
@@ -211,6 +210,15 @@ footer nav ul {
 }
 footer nav ul li {
   text-align: center;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer div img {
+  padding: 5px;
+  margin: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
