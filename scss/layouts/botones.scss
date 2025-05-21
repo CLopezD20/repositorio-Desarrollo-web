@@ -22,13 +22,13 @@
  }
 
  .formulario-contacto {
-    background-color: white;
+     background-color: white;
      display: flex;
      flex-direction: column;
      align-items: center;
 
-    @media (max-width:768px) {
-        margin: 24px;
+     @media (max-width:768px) {
+         margin: 24px;
      }
 
      .formulario {

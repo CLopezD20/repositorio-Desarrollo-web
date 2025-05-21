@@ -198,6 +198,12 @@ header .colortitulo {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .pagina-contacto {
+    margin: 24px;
+    background-image: none;
+  }
+}
 .pagina-contacto .textos-varios-textos-contacto {
   background-color: white;
   max-width: 900px;
