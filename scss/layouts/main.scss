@@ -68,6 +68,7 @@
 }
 
 .textos-varios-h2 {
+    background-color: white;
     color: $letra-color;
     @extend %fuente-comun;
     font-size: 30px;
@@ -99,12 +100,23 @@
     margin: 1.5rem;
 }
 
-.textos-varios-textos-contacto {
-    border: $color-extra 1px solid;
-    border-radius: 5px;
-    @extend %fuente-comun;
-    @extend %pad-margin-igual;
+.pagina-contacto {
+    background-image: $fondo-imagen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .textos-varios-textos-contacto {
+        background-color: white;
+        max-width: 900px;
+        width: 100%;
+        justify-content: center;
+        border: $color-extra 1px solid;
+        border-radius: 5px;
+        @extend %fuente-comun;
+        @extend %pad-margin-igual;
+    }
 }
+
 
 .nosotros-inicio {
     font-family: "Edu Sa Beginner";
@@ -119,7 +131,8 @@
 .nosotros-inicio img {
     width: 75px;
 }
-.textos-varios-texto{
+
+.textos-varios-texto {
     @extend %fuente-comun;
     text-align: justify;
 }

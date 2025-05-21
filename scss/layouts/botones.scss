@@ -22,9 +22,14 @@
  }
 
  .formulario-contacto {
+    background-color: white;
      display: flex;
      flex-direction: column;
      align-items: center;
+
+    @media (max-width:768px) {
+        margin: 24px;
+     }
 
      .formulario {
          max-width: 900px;
@@ -47,8 +52,8 @@
      .enviar {
          @extend %b-enviar;
          text-align: center;
-         display: block;           // Lo convierte en bloque
-         margin: 1.5rem auto 0; 
+         display: block;
+         margin: 1.5rem auto 0;
      }
 
      .enviar:hover {
