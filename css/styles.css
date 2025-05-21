@@ -41,12 +41,12 @@ footer nav a, footer p {
   padding: 1px;
 }
 
-.selectorcard, .formulario-contacto .enviar {
+.selectorcard, .enviar {
   border: 1px solid #133955;
   color: #D1775B;
 }
 
-.formulario-contacto .enviar {
+.enviar {
   font-family: "Edu Sa Beginner";
   grid-column: 1;
   background-color: #F5EFEB;
@@ -96,12 +96,14 @@ footer nav a, footer p {
   border: #D1775B 1px solid;
   background-color: #F5EFEB;
 }
-.formulario-contacto .enviar {
+
+.enviar {
   text-align: center;
   display: block;
   margin: 1.5rem auto 0;
 }
-.formulario-contacto .enviar:hover {
+
+.enviar:hover {
   background-color: #D1775B;
   color: #F5EFEB;
 }

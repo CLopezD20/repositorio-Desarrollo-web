@@ -49,15 +49,15 @@
          background-color: $fondo-color;
      }
 
-     .enviar {
-         @extend %b-enviar;
-         text-align: center;
-         display: block;
-         margin: 1.5rem auto 0;
-     }
+    }
+    .enviar {
+        @extend %b-enviar;
+        text-align: center;
+        display: block;
+        margin: 1.5rem auto 0;
+    }
 
-     .enviar:hover {
-         background-color: $color-extra;
-         color: $fondo-color;
-     }
- }
+    .enviar:hover {
+        background-color: $color-extra;
+        color: $fondo-color;
+    }
