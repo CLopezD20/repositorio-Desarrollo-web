@@ -37,7 +37,7 @@
 
         h2 {
             font-family: $letra1;
-            font-size: 1.5rem;
+            font-size: 28px;
             margin: 20px;
             color: $letra-color
         }
@@ -118,4 +118,8 @@
 
 .nosotros-inicio img {
     width: 75px;
+}
+.textos-varios-texto{
+    @extend %fuente-comun;
+    text-align: justify;
 }
